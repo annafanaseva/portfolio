@@ -35,13 +35,17 @@ const Cases = () => {
               <div className={styles.cardWrapper}>
                 <p className={styles.projectId}>{project.id}</p>
                 <p className={styles.projectText}>{project.name}</p>
+                {project.code ? (
+                  <Link className={styles.projectLink} to={project.code}>
+                    Preview
+                  </Link>
+                ) : (
+                  <Link className={styles.projectLink} to={project.demo}>
+                    Preview
+                  </Link>
+                )}
                 <p className={styles.projectDate}>{project.date}</p>
                 <img className={styles.arrow} src={arrow} alt="arrow" />
-              </div>
-
-              <div className={styles.cardSideWrapper}>
-                <Link to={project.code}>Code</Link>
-                <Link to={project.demo}>Demo</Link>
               </div>
             </SwiperSlide>
           ))}

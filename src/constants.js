@@ -32,32 +32,28 @@ export const projects = [
     id: 1,
     date: '21.06.2023',
     name: 'Приложение для кинотеатра',
-    demo: '',
-    code: '',
-    link: '/'
+    demo: 'https://annafanaseva.github.io/portfolio/',
+    code: 'https://github.com/annafanaseva/cinema-react'
   },
   {
     id: 2,
     date: '21.06.2023',
     name: 'Лендинг для клининговой компании',
     demo: 'https://arsenalcleaning.ru',
-    code: '',
-    link: '/'
-  },
-  {
-    id: 2,
-    date: '21.06.2023',
-    name: 'Лендинг для клининговой компании',
-    demo: 'https://arsenalcleaning.ru',
-    code: '',
-    link: '/'
+    code: ''
   },
   {
     id: 3,
     date: '21.06.2023',
     name: 'Лендинг для маркетингового агенства',
     demo: 'https://htmlpreview.github.io/?https://raw.githubusercontent.com/annafanaseva/lanskoy/master/index.html',
-    code: '',
-    link: '/'
+    code: 'https://github.com/annafanaseva/lanskoy'
+  },
+  {
+    id: 4,
+    date: '21.06.2023',
+    name: 'Приложение для выбора авиабилетов',
+    demo: 'https://annafanaseva.github.io/webpack-bootstrap-scss/',
+    code: 'https://github.com/annafanaseva/webpack-bootstrap-scss'
   }
 ];

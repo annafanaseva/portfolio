@@ -17,7 +17,8 @@ const SideNav = () => {
       <Link
         to="https://github.com/annafanaseva?tab=repositories"
         target="_blank"
-        className={styles.sideNavLink}>
+        className={styles.sideNavLink}
+      >
         <img src={ghIcon} alt="GitHub" />
       </Link>
     </div>
