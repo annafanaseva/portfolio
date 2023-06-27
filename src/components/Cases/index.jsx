@@ -37,11 +37,11 @@ const Cases = () => {
                 <p className={styles.projectText}>{project.name}</p>
                 {project.code ? (
                   <Link className={styles.projectLink} to={project.code}>
-                    Preview
+                    Подробнее
                   </Link>
                 ) : (
                   <Link className={styles.projectLink} to={project.demo}>
-                    Preview
+                    Подробнее
                   </Link>
                 )}
                 <p className={styles.projectDate}>{project.date}</p>

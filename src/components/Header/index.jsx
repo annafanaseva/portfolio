@@ -6,32 +6,34 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logoWrapper}>
-        <p className={styles.logoAccent}>ANN AFANASEVA</p>
-        <div className={styles.oval} />
+        <span className={styles.logoPrimary}>
+          ANN AFANASEVA
+          <span className={styles.logoAccent}> | FRONTEND DEVELOPER</span>
+        </span>
       </div>
 
       <ul className={styles.links}>
         <li>
           <Link className={styles.link} to="/">
-            Блог
+            БЛОГ
           </Link>
         </li>
 
         <li>
           <Link className={styles.link} to="/">
-            Портфолио
+            ПОРТФОЛИО
           </Link>
         </li>
 
         <li>
           <Link className={styles.link} to="/">
-            Кейсы
+            КЕЙСЫ
           </Link>
         </li>
 
         <li>
           <Link className={styles.link} to="/">
-            Навыки
+            НАВЫКИ
           </Link>
         </li>
       </ul>

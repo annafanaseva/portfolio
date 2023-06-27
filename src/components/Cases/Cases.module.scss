@@ -32,16 +32,6 @@
   align-items: flex-start;
 
   height: 100%;
-
-  // &:hover {
-  //   display: none;
-  //   .cardSideWrapper {
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;
-  //   }
-  // }
 }
 
 .projectText {
@@ -54,7 +44,7 @@
 
 .projectLink{
   padding: 10px 30px;
-  border: 2px solid #000;
+  border: 2px solid $secondAccentColor;
   color: #000;
   text-decoration: none;
   font-weight: 500;
@@ -69,7 +59,7 @@
   padding: 6px 16px;
   font-weight: 200;
   font-size: 36px;
-  border: 2px solid #000;
+  background-color: $secondAccentColor;
   border-radius: 50%;
 }
 

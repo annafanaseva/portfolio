@@ -1,4 +1,6 @@
 import mainText from '../../assets/img/main-text.png';
+import asteriskIcon from '../../assets/img/asterisk.svg';
+import locationIcon from '../../assets/img/location.svg';
 // import Oval from '../Oval';
 
 import styles from './Hero.module.scss';
@@ -18,9 +20,16 @@ const Hero = () => {
 
           <div className={styles.line} />
 
-          <p>Афанасьева Анна</p>
-          <p>22 года</p>
-          <p>Москва</p>
+          <div className={styles.textWrapperName}>
+            <span className={styles.text}>Афанасьева Анна</span>
+            <img src={asteriskIcon} className={styles.icon} alt="asterisk" />
+            <span className={styles.text}> 22</span>
+          </div>
+
+          <div className={styles.textWrapperLocation}>
+            <img src={locationIcon} className={styles.icon} alt="location" />
+            <span className={styles.text}> Москва</span>
+          </div>
         </div>
       </div>
 

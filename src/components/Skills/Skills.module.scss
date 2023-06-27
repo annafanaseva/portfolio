@@ -15,6 +15,11 @@
 .skill {
   position: relative;
   margin-left: 100px;
+
+  img svg:hover {
+    fill: #dbf554;
+  }
+
   &:first-child {
     margin-left: 0;
   }
