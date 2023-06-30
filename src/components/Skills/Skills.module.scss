@@ -5,7 +5,17 @@
   margin: 0 auto;
 }
 
+.aboutText {
+  text-align: justify;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
 .skills {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,7 +24,7 @@
 
 .skill {
   position: relative;
-  margin-left: 100px;
+  margin: 0 100px 100px 0;
 
   img svg:hover {
     fill: #dbf554;
